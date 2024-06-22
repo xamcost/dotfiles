@@ -1,0 +1,21 @@
+name: "dss"
+windows:
+  - name: "dss"
+    root: "~/Documents/code/incitev/dss"
+    focus: true
+    panes:
+      - commands:
+        - nvim
+        focus: true
+      - commands:
+        - tmux resize-pane -D 10
+        - cd src/frontend
+        - source .env.local
+  - name: "links"
+    root: "~/Documents/code/incitev/links/dss/docker"
+    panes:
+      - commands:
+        - colima start
+        - docker-compose up -d
+  - name: "k9s"
+    root: "~/Documents/code/incitev"
