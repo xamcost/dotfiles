@@ -171,3 +171,6 @@ export NVM_DIR="$HOME/.nvm"
 source <(fzf --zsh)
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
+
+# Zoxide
+eval "$(zoxide init zsh)"
