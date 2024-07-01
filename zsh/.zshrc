@@ -114,8 +114,6 @@ export EDITOR="nvim"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zsource="source ~/.zshrc"
 alias zedit="nvim ~/.zshrc"
 alias nvimconfig="nvim ~/.config/nvim/lua/user/init.lua"
