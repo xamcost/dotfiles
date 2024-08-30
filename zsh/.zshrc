@@ -169,5 +169,8 @@ source <(fzf --zsh)
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
 
+# For image.nvim
+export DYLD_LIBRARY_PATH="$(brew --prefix)/lib:$DYLD_LIBRARY_PATH"
+
 # Zoxide
 eval "$(zoxide init zsh)"
