@@ -121,6 +121,12 @@ alias lg="lazygit"
 # opens Joplin with same profile as desktop app
 alias joplind="joplin --profile ~/.config/joplin-desktop"
 
+# navigation shortcuts
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias lla="ls -lah"
+
 # incitev shortcuts
 alias shapefile-encode="(){openssl base64 < $1 | tr -d '\n';}"
 
