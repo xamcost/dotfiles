@@ -13,6 +13,6 @@ windows:
   - name: "notes"
     panes:
       - commands:
-        - cd ~/Nextcloud/Obsidian/asphodel/
+        - cd ~/Documents/Obsidian/asphodel/
         - nvim
 
